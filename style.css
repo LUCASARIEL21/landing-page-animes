@@ -1,0 +1,339 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+  width: 100%;
+}
+
+body {
+  color: black;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.925);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+header nav a {
+  margin-left: 100px;
+  margin-right: auto;
+  color: azure;
+  font-weight: 600;
+  padding: 32px;
+  text-decoration: none;
+}
+
+main {
+  background-color: black;
+}
+
+section {
+  color: azure;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background-color: black;
+  padding: 10px 0px 10px 0px;
+}
+
+ul {
+  width: 100%;
+  height: auto;
+  padding: 20px 0px 20px;
+}
+
+ul li {
+  width: 200px;
+  height: 500px;
+  float: left;
+  margin-left: 100px;
+  margin-right: auto;
+  list-style: none;
+}
+
+.card-av {
+  text-align: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.img-av {
+  display: block;
+  height: 350px;
+}
+
+.overlay-av {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  transition: 0.5s ease;
+  opacity: 0;
+  color: azure;
+  font-size: 14px;
+  padding: 20px;
+  text-align: center;
+}
+
+.card-av:hover .overlay-av {
+  opacity: 1;
+}
+
+.card-bat {
+  text-align: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.img-bat {
+  display: block;
+  height: 350px;
+}
+
+.overlay-bat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  transition: 0.5s ease;
+  opacity: 0;
+  color: azure;
+  font-size: 14px;
+  padding: 20px;
+  text-align: center;
+}
+
+.card-bat:hover .overlay-bat {
+  opacity: 1;
+}
+
+.card-est {
+  text-align: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.img-est {
+  display: block;
+  height: 350px;
+}
+
+.overlay-est {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  transition: 0.5s ease;
+  opacity: 0;
+  color: azure;
+  font-size: 14px;
+  padding: 20px;
+  text-align: center;
+}
+
+.card-est:hover .overlay-est {
+  opacity: 1;
+}
+
+.card-esp {
+  text-align: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.img-esp {
+  display: block;
+  height: 350px;
+}
+
+.overlay-esp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  transition: 0.5s ease;
+  opacity: 0;
+  color: azure;
+  font-size: 14px;
+  padding: 20px;
+  text-align: center;
+}
+
+.card-esp:hover .overlay-esp {
+  opacity: 1;
+}
+
+.card-her {
+  text-align: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.img-her {
+  display: block;
+  height: 350px;
+}
+
+.overlay-her {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  transition: 0.5s ease;
+  opacity: 0;
+  color: azure;
+  font-size: 14px;
+  padding: 20px;
+  text-align: center;
+}
+
+.card-her:hover .overlay-her {
+  opacity: 1;
+}
+
+.card-oni {
+  text-align: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.img-oni {
+  display: block;
+  height: 350px;
+}
+
+.overlay-oni {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  transition: 0.5s ease;
+  opacity: 0;
+  color: azure;
+  font-size: 14px;
+  padding: 20px;
+  text-align: center;
+}
+
+.card-oni:hover .overlay-oni {
+  opacity: 1;
+}
+
+.card-esp {
+  text-align: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.img-esp {
+  display: block;
+  height: 350px;
+}
+
+.overlay-esp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  transition: 0.5s ease;
+  opacity: 0;
+  color: azure;
+  font-size: 14px;
+  padding: 20px;
+  text-align: center;
+}
+
+.card-esp:hover .overlay-esp {
+  opacity: 1;
+}
+
+.card-mel {
+  text-align: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.img-mel {
+  display: block;
+  height: 350px;
+}
+
+.overlay-mel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  transition: 0.5s ease;
+  opacity: 0;
+  color: azure;
+  font-size: 14px;
+  padding: 20px;
+  text-align: center;
+}
+
+.card-mel:hover .overlay-mel {
+  opacity: 1;
+}
+
+footer {
+  display: flex;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.925);
+  font-weight: 600;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+footer p {
+  color: azure;
+}
